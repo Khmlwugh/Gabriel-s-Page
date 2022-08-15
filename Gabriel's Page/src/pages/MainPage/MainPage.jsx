@@ -4,7 +4,7 @@ function MainPage(){
   return (
     <div>
       <Header/>
-      Main Page
+      GABRIEL FLORES
     </div>
   )
 }

@@ -5,9 +5,14 @@ function Header(){
 
   return(
     <StyledHeader>
-      Header
-      <Button text='Stack'/>
-      <Button text='About'/>
+      <div class='header--title'>
+        Gabriel Flores Bardales
+      </div>
+      <div class='header--container'>
+        <Button text='Stack'/>
+        <Button text='About'/>
+        <Button text='Resources'/>
+      </div>
     </StyledHeader>
   )
 }
