@@ -29,3 +29,27 @@ export const StyledButton = styled.div`
   border-radius: 20px;
   color: black;
 `
+
+export const StyledIntro = styled.div`
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  & h1{
+    margin: 20px 0px;
+  }
+  & .intro--subtitle{
+    margin: 0px;
+    font-size: 20px;
+  }
+  & .intro--image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #d7d7d7
+    margin: 30px 0px;
+    padding-top: 20px;
+  }
+`
