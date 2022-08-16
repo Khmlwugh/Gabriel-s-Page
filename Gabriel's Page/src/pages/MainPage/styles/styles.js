@@ -53,3 +53,18 @@ export const StyledIntro = styled.div`
     padding-top: 20px;
   }
 `
+
+export const StyledInfo = styled.div`
+  padding: 0px 0px 10px 50px;
+  cursor: crosshair;
+  & .info--title{
+    display: flex;
+    & i{
+      padding: 0px 10px;
+    }
+  }
+
+  & .info--details{
+    padding: 10px 30px;
+  }
+`
