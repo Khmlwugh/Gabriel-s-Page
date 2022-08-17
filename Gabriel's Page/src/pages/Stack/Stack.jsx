@@ -1,14 +1,18 @@
 import Header from "../../components/Header";
+import Container from "./components/Container";
+import { StyledStack } from "./styles/styles";
 
 function Stack() {
 
   return (
-    <div>
+    <>
       <Header/>
-      <div>
-        Stackssss
-      </div>
-    </div>
+      <StyledStack>
+        <Container title='Currently using'/>
+        <Container title='Currently learning'/>
+        <Container title='Learning soon'/>
+      </StyledStack>
+    </>
 
   )
 }
