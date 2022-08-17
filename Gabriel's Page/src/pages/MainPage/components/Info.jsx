@@ -7,12 +7,12 @@ function Info({text, details}){
 
   return(
     <StyledInfo>
-      <div class='info--title' onClick={() => {setisOpen(!isOpen)}}>
-        {!isOpen && <i class="ri-arrow-right-s-line" />}
-        {isOpen && <i class="ri-arrow-down-s-line"/>}
-        <div>{text}</div>
+      <div className='info--title' onClick={() => {setisOpen(!isOpen)}}>
+        {!isOpen && <i className="ri-arrow-right-s-line" />}
+        {isOpen && <i className="ri-arrow-down-s-line"/>}
+        <div className='info--text'>{text}</div>
       </div>
-      {isOpen && <div class='info--details'>{details}</div>}
+      {isOpen && <div className='info--details'>{details}</div>}
     </StyledInfo>
   )
 }

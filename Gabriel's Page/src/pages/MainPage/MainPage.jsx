@@ -4,17 +4,18 @@ import Education from "./components/Education"
 import Info from "./components/Info"
 import Intro from "./components/Intro"
 import Projects from "./components/Projects"
+import { CollapsibleContainer } from "./styles/styles"
 
 function MainPage(){
   return (
     <div>
       <Header/>
       <Intro/>
-      <div>
+      <CollapsibleContainer>
         <Info text='About' details={<About/>}/>
         <Info text='Education' details={<Education/>}/>
         <Info text='Projects' details={<Projects/>}/>
-      </div>
+      </CollapsibleContainer>
     </div>
   )
 }

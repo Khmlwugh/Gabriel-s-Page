@@ -5,12 +5,13 @@ export const StyledHeader = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  width: 100vw;
+  width: 100%;
   height: 100px;
   color: white;
   & .header--container{
     display: flex;
     flex-direction: row;
+    padding: 0px 10px;
   }
   & .header--title{
     font-size: 40px;
@@ -59,12 +60,67 @@ export const StyledInfo = styled.div`
   cursor: crosshair;
   & .info--title{
     display: flex;
+    margin: 15px 0px;
     & i{
       padding: 0px 10px;
+    }
+    & .info--text{
+      font-size: 24px;
     }
   }
 
   & .info--details{
     padding: 10px 30px;
   }
+`
+
+export const CollapsibleContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+`
+
+
+export const StyledProject = styled.div`
+  background-color: ghostwhite;
+  border-radius: 25px;
+  padding: 20px 30px;
+  margin: 5px 0px;
+  width: 90%;
+  & .project--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & .project--title{
+      padding: 0px 0px;
+      margin: 5px 0px;
+      & a{
+        text-decoration: none;
+      }
+  }
+
+  & .project--desc{
+    padding-right: 100px;
+  }
+
+  & .project--tag{
+    display: flex;
+    padding: 0px 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background-color: gold;
+    width: 100px;
+    border-radius: 25px;
+  }
+`
+
+export const StyledCollapsible = styled.div`
+  background-color: ghostwhite;
+  border-radius: 25px;
+  padding: 20px 30px;
+  width: 90%
+
 `

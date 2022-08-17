@@ -5,10 +5,10 @@ function Header(){
 
   return(
     <StyledHeader>
-      <div class='header--title'>
+      <div className='header--title'>
         Gabriel Flores Bardales
       </div>
-      <div class='header--container'>
+      <div className='header--container'>
         <Button text='Stack'/>
         <Button text='About'/>
         <Button text='Resources'/>
