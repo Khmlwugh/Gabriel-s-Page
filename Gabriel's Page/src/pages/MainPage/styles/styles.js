@@ -14,6 +14,8 @@ export const StyledHeader = styled.div`
     padding: 0px 10px;
   }
   & .header--title{
+    color: white;
+    text-decoration: none;
     font-size: 40px;
     padding: 0 30px;
   }

@@ -1,16 +1,17 @@
 import { StyledHeader } from "../pages/MainPage/styles/styles"
 import Button from "../pages/MainPage/components/Button"
+import {Link} from 'react-router-dom'
 
 function Header(){
 
   return(
     <StyledHeader>
-      <div className='header--title'>
+      <Link className='header--title'to='/'>
         Gabriel Flores Bardales
-      </div>
+      </Link>
       <div className='header--container'>
-        <Button text='Stack'/>
         <Button text='About'/>
+        <Button text='Stack'/>
         <Button text='Resources'/>
       </div>
     </StyledHeader>
