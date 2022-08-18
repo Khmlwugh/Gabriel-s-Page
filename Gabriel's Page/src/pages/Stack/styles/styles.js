@@ -16,3 +16,14 @@ export const StyledContainer = styled.div`
   width: 90%;
 
 `
+
+export const StyledCard = styled.div`
+  background-color: silver;
+  padding: 10px 50px;
+  border-radius: 20px;
+  margin: 20px 0px;
+  & a{
+    text-decoration: none;
+    color: black;
+  }
+`
