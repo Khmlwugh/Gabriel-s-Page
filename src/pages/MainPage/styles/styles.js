@@ -59,10 +59,10 @@ export const StyledIntro = styled.div`
 
 export const StyledInfo = styled.div`
   padding: 0px 0px 10px 50px;
-  cursor: crosshair;
   & .info--title{
     display: flex;
     margin: 15px 0px;
+    cursor: pointer;
     & i{
       padding: 0px 10px;
     }

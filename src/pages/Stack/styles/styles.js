@@ -14,7 +14,14 @@ export const StyledContainer = styled.div`
   margin: 10px 10px;
   padding: 10px 20px;
   width: 90%;
-
+  & .title--container{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  & .title--text{
+    padding-left: 10px;
+  }
 `
 
 export const StyledCard = styled.div`
