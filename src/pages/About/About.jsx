@@ -7,7 +7,7 @@ function About() {
 
   return(
     <>
-      <Header/>
+      <Header/>r
       <AboutContainer>
         <Profile/>
         <Details/>

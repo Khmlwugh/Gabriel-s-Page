@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 import {useState} from 'react'
 import 'remixicon/fonts/remixicon.css'
 
-function Container({title, children}){
-  const [open, setOpen] = useState(false)
+function Container({title, children, state}){
+  const [open, setOpen] = useState(state)
 
   return(
     <StyledContainer>

@@ -9,7 +9,7 @@ function Stack() {
     <>
       <Header/>
       <StyledStack>
-        <Container title='Currently using'>
+        <Container title='Currently using' state={true}>
           <StackCard title="React" url='https://reactjs.org/'>
             <p>A JavaScript library for building user interface</p>
           </StackCard>
@@ -23,7 +23,7 @@ function Stack() {
             <p>The World's Most Advanced Open Source Relational Database.</p>
           </StackCard>
         </Container>
-        <Container title='Currently learning'>
+        <Container title='Currently learning' state={false}>
           <StackCard title="MongoDB" url='https://www.mongodb.com/'>
             <p>The World's Most A  dvanced Open Source Relational Database.</p>
           </StackCard>
@@ -33,7 +33,7 @@ function Stack() {
         </Container>
           
 
-        <Container title='Learning soon'>
+        <Container title='Learning soon' state={false}>
           <StackCard StackCard title="Node.js" url='https://nodejs.org/en/'>
             <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.</p>
           </StackCard>
