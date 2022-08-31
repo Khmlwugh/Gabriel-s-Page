@@ -5,15 +5,15 @@ function Profile(){
   return(
     <StyledProfile>
       <div className='image-container'>
-        <img className='image-container--image' src='src/assets/The-Smiths-The-Queen-Is-Dead.jpg' alt=''/>
+        <img className='image-container--image' src='src/assets/smiths.jpg' alt=''/>
         <h4>Gabriel Flores</h4>
       </div>
       <div className='description-container'>
-        <div className='description--text'>
-          Description
+        <div className='description--title'>
+          Full-Stack Developer Jr
         </div>
-        <div>
-
+        <div className='description--box'>
+          Actual Description
         </div>
       </div>
     </StyledProfile>

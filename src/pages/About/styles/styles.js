@@ -24,4 +24,20 @@ export const StyledProfile = styled.div`
     border-radius: 100px;
   }
 
+  & .description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & .description--box{
+      display: flex;
+      border-radius: 4px;
+      justify-content: center;
+      margin: 20px 0px;
+      background: lavender;
+      width: 50%;
+      height: 150px;
+    }
+
+  }
 `
