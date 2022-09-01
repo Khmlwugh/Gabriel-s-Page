@@ -16,6 +16,9 @@ export const StyledProfile = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    & h3{
+      margin: 15px 0px;
+    }
   }
 
   & .image-container--image{
@@ -33,11 +36,25 @@ export const StyledProfile = styled.div`
       display: flex;
       border-radius: 4px;
       justify-content: center;
+      align-items: center;
       margin: 20px 0px;
       background: lavender;
-      width: 50%;
-      height: 150px;
+      width: 65%;
+      height: 100px;
+      align-text: center;
+      padding: 10px;
     }
-
+  }
+  & .socials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & a{
+      padding: 0px 10px;
+      color: black;
+      & i{
+        font-size: 24px;
+      }
+    }
   }
 `
