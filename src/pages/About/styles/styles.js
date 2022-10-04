@@ -17,7 +17,6 @@ export const StyledDetails = styled.div`
   }
 `
 
-
 export const StyledProfile = styled.div`
   width: 40vw;
   display: flex;
@@ -77,4 +76,27 @@ export const StyledProfile = styled.div`
     align-items: center;
   }
   
+`
+
+export const StyledEntry = styled.div`
+  background-color: white;
+  border-radius: 10px;
+  & .title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    }
+    & h4{
+      margin: 0px;  
+    }
+  }
+  & .desc-container{
+    padding: 0px 30px;
+  }
+`
+
+export const StyledDetailsPage = styled.div`
+  padding: 10px 0px;  
+  width: 60vw;
 `
