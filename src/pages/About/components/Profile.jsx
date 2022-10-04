@@ -1,4 +1,5 @@
 import { StyledProfile } from "../styles/styles"
+import IconTag from "./IconTag"
 
 function Profile(){
 
@@ -6,7 +7,7 @@ function Profile(){
     <StyledProfile>
       <div className='image-container'>
         <img className='image-container--image' src='src/assets/smiths.jpg' alt=''/>
-        <h3>Gabriel Flores</h3>
+        <h2>Gabriel Flores</h2>
       </div>
       <div className="socials-container">
         <div>
@@ -27,6 +28,10 @@ function Profile(){
         <div className='description--box'>
           Developer using Ruby on Rails and React.
         </div>
+      </div>
+      <div className='details-container'>
+          <IconTag  icon='ri-map-pin-line' tag='Lima, Peru'/>
+          <IconTag  icon='ri-mail-line' tag='gabriel.flores.2296@gmail.com'/>
       </div>
     </StyledProfile>
   )

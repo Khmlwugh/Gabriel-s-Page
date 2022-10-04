@@ -4,6 +4,18 @@ export const AboutContainer = styled.div`
   display: flex,
 
 `
+export const StyledDetails = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 275px;
+  & i{
+    padding: 0px 5px;
+  }
+  & p{
+    padding: 0px 5px;
+  }
+`
 
 
 export const StyledProfile = styled.div`
@@ -22,9 +34,9 @@ export const StyledProfile = styled.div`
   }
 
   & .image-container--image{
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
   }
 
   & .description-container{
@@ -53,8 +65,16 @@ export const StyledProfile = styled.div`
       padding: 0px 10px;
       color: black;
       & i{
-        font-size: 24px;
+        font-size: 36px;
       }
     }
   }
+
+  & .details-container{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
 `
