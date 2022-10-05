@@ -92,7 +92,10 @@ export const StyledEntry = styled.div`
     }
   }
   & .desc-container{
-    padding: 0px 30px;
+    padding: 10px 30px;
+    & h3{
+      margin: 0px;
+    }
   }
 `
 
