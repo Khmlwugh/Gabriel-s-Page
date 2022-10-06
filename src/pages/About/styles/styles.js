@@ -86,7 +86,7 @@ export const StyledEntry = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 30px;
+    padding: 10px 30px;
     }
     & h4{
       margin: 0px;  
