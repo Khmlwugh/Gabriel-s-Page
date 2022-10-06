@@ -1,11 +1,11 @@
 import { StyledEntry } from "../styles/styles"
 
-function Entry({title, org, date, description='', children}){
+function Entry({title, org, date_start, date_end, description='', children}){
   return(
     <StyledEntry>
       <div className="title-container">
         <h4>{title}</h4>
-        <p>{date}</p>
+        <p>{date_start} - {date_end}</p>
       </div>
       <div className="desc-container">
         <h3>

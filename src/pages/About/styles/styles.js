@@ -81,6 +81,7 @@ export const StyledProfile = styled.div`
 export const StyledEntry = styled.div`
   background-color: white;
   border-radius: 10px;
+  margin: 15px 0px;
   & .title-container{
     display: flex;
     align-items: center;
